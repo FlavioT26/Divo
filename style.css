@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #c7c8fc;
+    color: #ffffff;
+    font-family: "Lilita One", sans-serif;
+    padding: 12px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+i{
+    color: #fff;
+}
+
+input {
+    outline: none;
+    border-color: none;
+}
+
+select {
+    border-radius: 5px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.nav-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a.nav-brand {
+    color: #0d1586;
+}
+
+.nav-publish a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0d1586;
+}
+
+.nav-publish a:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    text-align: center;
+}
+
+.main-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main-content h1 {
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+    font-size: 150px;
+    margin: 40px;
+    color: #0d1586;
+}
+
+span {
+    color: #ff7300;
+}
+
+.search-bar {
+    width: 750px;
+    max-width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0px 0px 15px;
+    margin: 20px 0px 20px 40px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box button {
+    width: 45px;
+    height: 53px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0d1586;
+    border: none;
+}
+
+i{
+    color: #fff;
+}
+
+/*Pag2-Busqueda*/
+
+.nav-search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-search .search-bar2 {
+    width: 800px;
+    max-width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+.nav-search button {
+    width: 45px;
+    height: 45px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0d1586;
+    border: none;
+}
+
+.search-box button:hover {
+    background-color: #ff7300;
+    transition: 0.5s;
+}
+.nav-search button:hover {
+    background-color: #ff7300;
+    transition: 0.5s;
+}
+
+.main-pag2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.filtros {
+    width: 400px;
+    height: 92%;
+    border-style: solid;
+    border-width: 0px 3px 0px 0px;
+    border-color: #0d1586a1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.filtros h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 30px;
+    margin: 30px 30px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px #616161;
+}
+
+.filtros select {
+    display: block;
+    border-style: none;
+    padding: 10px 15px;
+    margin: 20px 30px;
+}
+
+.filtros label {
+    margin: 0px 30px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 900;
+}
+
+.result {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans JP", sans-serif;
+
+}
+
+.main-pag3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 900;
+}
+
+.c1 {
+    height: 60px;
+}
+
+.c1 {
+    width: 74%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.c1 h1 {
+    font-size: 30px;
+    margin: 30px 30px;
+}
+
+.c1 select {
+    border-style: none;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+.c1 label {
+    margin: 0px 30px;
+    font-size: 18px;
+    margin: 0 10px 0 32px;
+}
+
+.c2-c3 {
+    display: flex;
+}
+
+.c2 {
+    height: 400px;
+    max-width: 50%;
+    padding: 35px;
+    margin-right: 50px;
+}
+
+.c2 form {
+    display: flex;
+    flex-direction: column;
+}
+.content-title {
+    height: 60px;
+    margin: 20px 0 20px 0;
+    width: 400px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+.content-text {
+    height: 270px;
+    margin: 20px 0 20px 0;
+    width: 400px;
+    border-radius: 20px;
+    border-style: none;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+}
+
+.c3 {
+    height: 400px;
+    max-width: 50%;
+    padding: 35px;
+    margin-left: 50px;
+}
+
+.c3 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-upload {
+    background-color: #fff;
+    align-content: center;
+    height: 200px;
+    margin: 20px 0 20px 0;
+    width: 350px;
+    border-radius: 20px;
+    border-style: none;
+    border: 1px solid #ccc;
+    padding: 0 20px;
+}
+
+.button-upload {
+    border-style: none;
+    width: 150px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: #ff7300;
+    font-family: "Noto Sans JP", sans-serif;
+    color: #ffffff;
+}
+
+.button-upload:hover {
+    background-color: #616161;
+    transition: 0.2s;
+}
+
+.colum-div {
+    display: inline;
+}
+
+@media (max-width: 425px) {
+    nav {
+        padding: 12px 10px;
+    }
+    .search-bar {
+        width: 250px;
+        margin: 20px 0px 20px 5px;
+    }
+    .main-content h1 {
+        font-size: 100px;
+    }
+    /*Pag2*/
+    .main-pag2 {
+        flex-direction: column;
+    }
+    .nav-search .search-bar2 {
+        width: 100px;
+    }
+    .filtros {
+        width: 400px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        border-color: #070d63c0;
+    }
+    .filtros h1 {
+        font-family: none;
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .filtros label {
+        margin: 10px 0px;
+        font-size: 14px;
+        font-family: "Noto Sans JP", sans-serif;
+        font-weight: 900;
+    }
+    .filtros form {
+        display: flex;
+
+    }
+    .colum-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .filtros select {
+        display: inline;
+        width: 84px;
+        padding: 5px 7px;
+        margin: 0px 15px 5px 0px;
+        font-size: 12px;
+    }
+    /*Pag3*/
+    .c2-c3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .c2 {
+        height: 100%;
+        max-width: 100%;
+        padding: 5px;
+        margin: 0px;
+    }
+    .c3 {
+        height: 100%;
+        max-width: 100%;
+        padding: 5px;
+        margin: 0px;
+    }
+    .content-title {
+        height: 50px;
+        margin: 5px 0;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .content-text {
+        height: 150px;
+        margin: 5px 0;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .content-upload {
+        height: 150px;
+        margin: 5px 0;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .button-upload {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .c1 {
+        width: 339px;
+        justify-content: center;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+    
+    .c1 h1 {
+        font-family: none;
+        font-size: 0;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .c1 label {
+        margin: 10px 0px;
+        font-size: 14px;
+        font-family: "Noto Sans JP", sans-serif;
+        font-weight: 900;
+        text-align: center;
+    }
+    .c1 form {
+        display: flex;
+
+    }
+    .colum-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .c1 select {
+        display: inline;
+        width: 84px;
+        border-radius: 0;
+        border: solid 1px #ccc;
+        border-width: 0px 0px 1px 0px;
+        padding: 5px 7px;
+        margin: 0px 15px 5px 0px;
+        font-size: 12px;
+    }
+}
